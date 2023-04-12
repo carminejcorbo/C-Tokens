@@ -4,7 +4,7 @@
 #define MAX_LENGTH 15
 
 int main() {
-  char phone_num[MAX_LENGTH];
+  char phone_num[MAX_LENGTH];  // intialize string array to n + 1 characters where n is the length of the string.
   char *areaCodeToken;
   char *firstThree;
   char *lastFour;
@@ -13,8 +13,8 @@ int main() {
   long phonenumber;
   
   printf("Enter a telephone number in the form (555) 555-5555: ");
-  //scanf("%s", phone_num);
 
+  // Get user input and store it in phone_num
   fgets(phone_num, MAX_LENGTH, stdin);
   printf("You entered: %s\n", phone_num);
   
@@ -32,11 +32,11 @@ int main() {
   lastFour = strtok(NULL, "- ");
   printf("%s\n", lastFour); // for testing only
 
-  // concatenate firstThree with lastFour
+  // Concatenate firstThree with lastFour
   strcpy(fullNumber, firstThree); // copy firstThree to fullNumber
   strcat(fullNumber, lastFour); // concatenate lastFour to fullNumber
 
-  //convert char to int and long
+  // Convert char to int and long
   area_code = atoi(areaCodeToken);
   phonenumber = atoi(fullNumber);
   
