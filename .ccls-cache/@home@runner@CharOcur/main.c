@@ -13,7 +13,6 @@ int main() {
   long phonenumber;
   
   printf("Enter a telephone number in the form (555) 555-5555: ");
-
   // Get user input and store it in phone_num
   fgets(phone_num, MAX_LENGTH, stdin);
   printf("You entered: %s\n", phone_num);
@@ -42,6 +41,6 @@ int main() {
   
   // print value
   printf("Area code: %d  Phone number: %ld \n", area_code, phonenumber);
-  
+
   return 0;
 }
