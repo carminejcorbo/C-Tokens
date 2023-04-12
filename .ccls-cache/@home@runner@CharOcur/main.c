@@ -11,7 +11,6 @@ int main() {
   char fullNumber[8]; // allocate space for 7 characters plus null terminator
   int area_code;
   long phonenumber;
-
   
   printf("Enter a telephone number in the form (555) 555-5555: ");
   //scanf("%s", phone_num);
@@ -33,8 +32,6 @@ int main() {
   lastFour = strtok(NULL, "- ");
   printf("%s\n", lastFour); // for testing only
 
-
-  
   // concatenate firstThree with lastFour
   strcpy(fullNumber, firstThree); // copy firstThree to fullNumber
   strcat(fullNumber, lastFour); // concatenate lastFour to fullNumber
