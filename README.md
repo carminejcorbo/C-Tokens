@@ -12,3 +12,4 @@ Functions used:
 <br>https://cplusplus.com/reference/cstring/strcpy/
 <br>https://cplusplus.com/reference/cstring/strcat/
 <br>https://cplusplus.com/reference/cstdlib/atoi/
+<br>https://cplusplus.com/reference/cstdlib/atol/

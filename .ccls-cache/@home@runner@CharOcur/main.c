@@ -38,7 +38,7 @@ int main() {
 
   // Convert char to int and long
   area_code = atoi(areaCodeToken);
-  phonenumber = atoi(fullNumber);
+  phonenumber = atol(fullNumber);
   
   // print value
   printf("Area code: %d  Phone number: %ld \n", area_code, phonenumber);
