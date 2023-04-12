@@ -7,8 +7,8 @@ Write a program that inputs a telephone number as a string in the form (555) 555
 
 Functions used:
 
-https://cplusplus.com/reference/cstdio/fgets/
-https://cplusplus.com/reference/cstring/strtok/
-https://cplusplus.com/reference/cstring/strcpy/
-https://cplusplus.com/reference/cstring/strcat/
-https://cplusplus.com/reference/cstdlib/atoi/
+<br>https://cplusplus.com/reference/cstdio/fgets/
+<br>https://cplusplus.com/reference/cstring/strtok/
+<br>https://cplusplus.com/reference/cstring/strcpy/
+<br>https://cplusplus.com/reference/cstring/strcat/
+<br>https://cplusplus.com/reference/cstdlib/atoi/
